@@ -1,0 +1,35 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1{
+background-color: cadetblue;
+color: burlywood;
+}
+
+canvas{
+border: 5px red double;
+border-radius: 20px;
+margin-top: 50px;
+animation-name: canvas;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes canvas{
+from {box-shadow: 1px 1px 50px grey;}
+to{box-shadow: 1px 1px 50px black;}
+}
+
+p{
+padding-top: 10px;
+font-size: 25px;
+}
+
+#button1{
+float: right;
+}
+
+#button2{
+margin-top: 350px;
+}
